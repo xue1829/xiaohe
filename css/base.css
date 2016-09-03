@@ -1,0 +1,112 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    color: #131313;
+    /*font-size: 12px;*/
+}
+
+body {
+    background: #fff;
+}
+
+input {
+    border: 0;
+}
+
+* {
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+a {
+    color: #131313;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b6060b;
+}
+
+a, area {
+    blr: expression(this.onFocus=this.blur());
+}
+
+/* for IE */
+:focus {
+    -moz-outline-style: none;
+}
+
+/* for Firefox */
+a {
+    blr: expression(this.onFocus=this.blur()); /* IE Opera */
+    outline: none; /* FF Opera */
+}
+
+a:focus {
+    -moz-outline-style: none;
+}
+
+/* FF */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearf {
+    clear: both;
+}
+
+.dashed_line {
+    height: 0;
+    overflow: hidden;
+    border-bottom: 1px dashed #ccc;
+}

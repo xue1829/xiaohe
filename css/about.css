@@ -1,0 +1,185 @@
+
+.general {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+.logo {
+    width: 200px;
+    height: 80px;
+    background: url(../images/xhlogo.png) no-repeat left;
+}
+
+.nav_wrapper {
+    position: relative;
+    /*z-index: 10;*/
+    /*overflow: hidden;*/
+}
+
+.nav_wrapper li {
+    float: left;
+    /* margin:0 auto; */
+}
+
+.nav_wrapper a {
+    text-align: center;
+    height: 80px;
+    width: 83px;
+    line-height: 80px;
+    text-decoration: none;
+    display: inline-block;
+    color: #4F7F90;
+    font-size: 16px;
+
+}
+.nav_wrapper span{
+    position:absolute;
+    top: 20px;
+
+    width: 83px;
+    height: 42px;
+    /*background-color: #99CC33;*/
+    background: url(../images/cloud.gif) no-repeat;
+    /*margin-left: 4px;*/
+    /*opacity: 0.5;*/
+}
+.nav_wrapper ul{
+    position: relative;
+}
+/*企业文化里动画部分样式*/
+.us_center1 .qywh{
+    position: absolute;
+    display:none;
+}
+
+#qywh_sm{
+    left:188px;
+    top:100px;
+}
+
+#qywh_yj{
+    left:670px;
+    top:128px;
+}
+
+#qywh_jzg{
+    left:95px;
+    top:325px;
+}
+#qywh_circle{
+    position: absolute;
+    left:450px;
+    top:155px;
+}
+
+/*团队实力动画样式*/
+
+
+
+#team_sjz0 img{
+    display: none;
+    float: left;
+}
+
+.team{
+    position: absolute;
+    display: none;
+}
+
+/*设置灰色竖线在图片正中显示*/
+.team>img{
+    margin-left: 63px;
+}
+
+#team_sjz1{
+     left:84px;
+     top:306px;
+ }
+
+#team_sjz2{
+    left:263px;
+    top:306px;
+}
+#team_sjz3{
+    left:540px;
+    top:306px;
+}
+#team_sjz4{
+    left:788px;
+    top:306px;
+}
+
+
+.revolution{
+    position: absolute;
+    top:88px;
+    right:173px;
+    z-index: 3;
+}
+#threeBlue{
+    width:126px;
+    height:125px;
+    background:url("../images/three1.png");
+    position: absolute;
+    top:91px;
+    left:705px;
+    display: none;
+}
+
+/*理念优势动画出现*/
+#threeGreen{
+    width:137px;
+    height:150px;
+    background:url("../images/three2.png");
+    position: absolute;
+    top:98px;
+    left:705px;
+    display: none;
+}
+
+#threeYellow{
+    width:137px;
+    height:150px;
+    background:url("../images/three3.png");
+    position: absolute;
+    top:89px;
+    left:689px;
+    display: none;
+
+}
+
+/*地址提示框*/
+.us_center2{
+    position: relative;
+}
+.kongHeZi{
+    height:40px;
+    width:40px;
+    float: left;
+    position: absolute;
+    left:217px;
+    top:60px;
+}
+.us_center2 .redPoint {
+    padding: 2px 10px;
+    border: 1px solid #ff5c00;
+    border-radius: 8px;
+    width: 130px;
+    position: absolute;
+    height: 23px;
+    top: 100px;
+    left: 220px;
+    background-color: #fff;
+    padding-top: 10px;
+    float: left;
+    display: none;
+    color:red;
+    font-size: 14px;
+    font-weight: 700;
+}
+.redPoint span {  position:relative ;  top: -11px;  left: 6px;  width: 130px;  height: 5px; font-family: 微软雅黑}
+.redPoint .jianJian{  position:relative; top: -15px;  left: -5px;  width: 10px;  height: 5px;  background: url(../images/arrow.gif) no-repeat;
+}
+
+/*地址提示框完*/

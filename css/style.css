@@ -1,0 +1,267 @@
+/*导航部分开始*/
+.general {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+.logo {
+    width: 200px;
+    height: 80px;
+    background: url(../images/xhlogo.png) no-repeat left;
+}
+
+.nav_wrapper {
+    position: relative;
+    /*z-index: 10;*/
+    /*overflow: hidden;*/
+}
+
+.nav_wrapper li {
+    float: left;
+    /* margin:0 auto; */
+}
+
+.nav_wrapper a {
+    text-align: center;
+    height: 80px;
+    width: 83px;
+    line-height: 80px;
+    text-decoration: none;
+    display: inline-block;
+    color: #4F7F90;
+    font-size: 16px;
+
+}
+.nav_wrapper span{
+    position:absolute;
+    top: 20px;
+
+    width: 83px;
+    height: 42px;
+    /*background-color: #99CC33;*/
+    background: url(../images/cloud.gif) no-repeat;
+    /*margin-left: 4px;*/
+   /*opacity: 0.5;*/
+}
+.nav_wrapper ul{
+    position: relative;
+}
+
+/*a:hover {*/
+    /*background-color: #55C617;*/
+    /*color: #fff*/
+/*}*/
+
+/*教育背景图开始*/
+
+#bigBg {
+    width: 100%;
+    height: 563px;
+    background: url(../images/bg1.jpg);
+
+}
+
+#bigBg .smallBg {
+    width: 710px;
+    margin: auto;
+    display: block;
+    padding-top: 200px;
+}
+/*我们可以做到部分 开始*/
+.center1 {
+    width: 100%;
+    height: 594px;
+    background: url(../images/center1.png);
+}
+
+.center1Top {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #677878;
+    padding-top: 60px;
+}
+
+.center1Top p {
+    font-size: 26px;
+    color: #677878;
+}
+
+.imgAll {
+    height: 400px;
+}
+
+.imgAll dl {
+    float: left;
+    margin: 40px 35px 0 95px;
+}
+
+.imgAll dl dd {
+    width: 202px;
+    text-align: center;
+    font-size: 20px;
+    color: #517f7f;
+    line-height: 26px;
+    padding-top: 18px;
+}
+
+.imgAll dl dd P {
+    font-size: 12px;
+    color: #999
+}
+
+.imgAll .img-1 dt {
+    width: 202px;
+    height: 230px;
+    background: url(../images/sjfk2.png);
+}
+
+.imgAll .img-1 dt:hover {
+    width: 202px;
+    height: 230px;
+    background: url(../images/sjfk1.png);
+}
+
+.imgAll .img-2 dt {
+    width: 202px;
+    height: 230px;
+    background: url(../images/sjfk4.png);
+}
+
+.imgAll .img-2 dt:hover {
+    width: 202px;
+    height: 230px;
+    background: url(../images/sjfk3.png);
+}
+
+.imgAll .img-3 dt {
+    width: 202px;
+    height: 230px;
+    background: url(../images/sjfk6.png);
+}
+
+.imgAll .img-3 dt:hover {
+    width: 202px;
+    height: 230px;
+    background: url(../images/sjfk5.png);
+}
+
+
+
+/*实力展示*/
+.showt{
+    height: 158px;
+
+    overflow: hidden;
+    width:100%;
+    height:158px;
+    background:url(../images/anzsbg.png)
+}
+.showt .showtxt{
+    height:158px;
+    background:#fff;
+    margin:auto;
+    width:355px;
+    font-size:30px;
+    color:#677878;
+    text-align:center;
+    padding-top:22px;
+    text-align: center;
+}
+/*实力展示图片部分ʽ*/
+.showpic{
+    margin-left: 15px;
+    /*background-color: #00CC66;*/
+    /*height: 610px;*/
+    overflow: hidden;
+    /*padding-bottom: 10px;*/
+
+}
+.showpic li{
+    width: 430px;
+    height: 350px;
+    float: left;
+    position: relative;
+    opacity: 0.8;
+    overflow: hidden;
+    margin:5px;
+}
+.showpic li h3{
+    position: absolute;
+    top: 260px;
+    left:15px;
+    /*top: 310px;*/
+    /*left: 450px;*/
+}
+.pic1 p,.pic2 p,.pic3 p,.pic4 p,.pic5 p,.pic6 p{
+    width: 400px;
+    height: 270px;
+    /*font-weight: 700;*/
+    text-align: center;
+    color:#fff;
+    margin-left: 20px;
+    position: absolute;
+    top:150px;
+    display: none;
+}
+.showpic .pic1{
+    background: url("../images/1.jpg");
+}
+/*.pic1 h3{*/
+    /*top: 260px;*/
+    /*left:15px;*/
+/*}*/
+.showpic .pic2{
+    background: url("../images/2.jpg");
+}
+/*.pic2 h3{*/
+    /*left: 165px;*/
+    /*top: 132px;*/
+/*}*/
+.showpic .pic3{
+    background: url("../images/3.jpg");
+}
+/*.pic3 h3{*/
+    /*top: 238px;*/
+    /*left: 250px;*/
+/*}*/
+.showpic .pic4{
+    background: url("../images/4.jpg");
+}
+/*.pic4 h3{*/
+    /*left: 90px;*/
+    /*top: 10px;*/
+/*}*/
+.showpic .pic5{
+    background: url("../images/5.jpg");
+}
+/*.pic5 h3{*/
+    /*left: 240px;*/
+    /*top: 90px;*/
+    /*color:#fff;*/
+/*}*/
+.showpic .pic6{
+    background: url("../images/6.jpg");
+}
+/*.pic6 h3{*/
+    /*top: 200px;*/
+    /*left: 20px;*/
+/*}*/
+
+/*底部天空背景*/
+.bottom_bj{
+    height: 132px;
+    overflow: hidden;
+    width:100%;
+}
+/*最底部footer部分*/
+.footer{
+    height: 100px;
+    background-color: #42525B;
+}
+.footer_bot{
+    text-align: center;
+    line-height: 100px;
+}
+

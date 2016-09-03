@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    width: 997px;
+    /*height: 1000px;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.current {
+    background-color: orangered;
+    color: #fff;
+}
+
+.square {
+    position: absolute;
+    right: 680px;
+    bottom: 10px;
+}
+
+.square span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    color: red;
+    text-align: center;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+#two_bg{
+    height: 297px;
+    width: 1350px;
+    overflow: hidden;
+    position: relative;
+}
+.inner {
+    height: 297px;
+    width: 1350px;
+    /*background-color: pink;*/
+    overflow: hidden;
+    position: relative;
+}
+
+#two_bg {
+    width: 1350px;
+    height: 297px;
+    margin: 0 auto;
+    padding: 5px;
+    /*border: 1px solid #ccc;*/
+}
+.inner #right,.inner #left {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    background: #000;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+ .inner #dir_img{
+     display:none;
+ }
+.inner #left{
+    left: 150px;
+    top: 150px;
+}
+.inner #right {
+    right: 150px;
+    top: 150px;
+    /*display: none;*/
+    /*left: auto;*/
+}
+.inner {
+    width: 1350px;
+    height: 297px;
+    background-color: pink;
+    /*overflow: hidden;*/
+    position: relative;
+}
+.inner ul {
+    width: 1000%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.inner li {
+    float: left;
+}
+
+#square {
+    position: absolute;
+    right: 650px;
+    bottom: 10px;
+}
+
+ .inner #square span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+#square span.current {
+    background-color: orangered;
+    color: #fff;
+}
+.banner_two {
+    position: absolute;
+    top: 200px;
+    left: 340px;
+}
+.banner_two .general {
+    color: #FF9600;
+    font-size: 32px;
+    font-weight:700;
+}
+.yw_z1 p {
+    margin-left: 14px;
+}
+/*产品展示*/
+.products dl{
+    float: left;
+    position: relative;
+
+}
+.products .one{
+    margin-right: 77px;
+
+}
+.products dt{
+    border: 8px solid #F6F6F6;
+
+}
+.products dt:hover{
+    border: 8px solid #55C617;
+}
+.products dd{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0 30px 0;
+    opacity: 0.5;
+}
+/*.products #details{*/
+    /*width: 150px;*/
+    /*height: 100px;*/
+    /*border: 2px solid #55C617;*/
+    /*float: left;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 280px;*/
+    /*display: none;*/
+    /*!*background-color: pink;*!*/
+/*}*/
+.yw_z1 {
+    text-align:center;
+    /*margin:auto;*/
+    font-size:20px;
+    color:#677878;
+    padding-top:60px;
+    margin-bottom: 66px;
+}
+.yw_z1 font {
+    color:#949494;
+    font-size:16px;
+}
+.yw_z1 p {
+    font-size:26px;
+    color:#677878
+}
+/*小禾底部展示*/
+.footer{
+    height: 100px;
+    background-color: #42525B;
+}
+.footer_bot{
+    text-align: center;
+    line-height: 100px;
+}
+
